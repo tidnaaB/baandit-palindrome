@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="" />
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="/static/stylesheets/main.css"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css?family=Open+Sans:300,400"
+			rel="stylesheet"
+		/>
+		<title>Baandits Palindrome Detector | {{ page_title }}</title>
+	</head>
+	<body>
+		<a href="/" class="header-logo">
+			<img src="/static/images/presstech.png" alt="Learn Enough logo" />
+		</a>
+		<div class="container">
+			{% include "navigation.html" %}
+			<div class="content">{% block content %}{% endblock %}</div>
+		</div>
+	</body>
+</html>
